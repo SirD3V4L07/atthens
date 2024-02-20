@@ -1,0 +1,62 @@
+body {
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    overflow:hidden;
+    color:whitesmoke;
+    font-family: "Kode Mono", monospace;
+}
+
+div {
+    display: flex;
+}
+
+#header {
+    height:10%;
+    width:98%;
+    border-bottom: 2px dashed white;
+    margin-left:10px;
+}
+
+#content {
+    height: 70%;
+    width:100%;
+    margin:0;
+    padding-left:50px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#prompt {
+    height: 20%;
+    width:100%;
+    margin:0;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#prompt input {
+    margin-left:50px;
+    background-color: black;
+    border:none;
+    caret-color: white;
+}
+
+#prompt input:active {
+    border:none;
+}
+
+#title {
+    align-items: center;
+    padding-left:50px;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+#at {
+    font-size: 36px;
+}
