@@ -11,8 +11,6 @@ promptInput.addEventListener('keydown', function(event) {
     }
 });
 
-
-
 function paintContent () {
     let content = document.getElementById("content");
     
