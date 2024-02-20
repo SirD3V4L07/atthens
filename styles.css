@@ -23,10 +23,10 @@ div {
     width:100%;
     margin:0;
     padding-left:50px;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: start;
+    justify-content: center;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #prompt {
@@ -41,13 +41,16 @@ div {
 
 #prompt input {
     margin-left:50px;
+    width:93%;
     background-color: black;
     border:none;
     caret-color: white;
+    color:whitesmoke;
+    font-family: "Kode Mono", monospace;
 }
 
-#prompt input:active {
-    border:none;
+#prompt input:focus {
+    outline:none;
 }
 
 #title {
