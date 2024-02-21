@@ -37,10 +37,11 @@ div {
     justify-content: flex-start;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin-left:50px;
 }
 
 #prompt input {
-    margin-left:50px;
+    margin-left:5px;
     width:93%;
     background-color: black;
     border:none;
@@ -62,4 +63,12 @@ div {
 
 #at {
     font-size: 36px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom:10px;
 }
